@@ -1,4 +1,4 @@
-{% comment %} Purchase data layer v2.0 - part of "Shopify GA4 Kit" by Analyzify
+{% comment %} Purchase data layer v2.1 - part of "Shopify GA4 Kit" by Analyzify
 Visit https://analyzify.app/shopify-google-analytics/ga4 for complete tutorial 
 {% endcomment %}
 
