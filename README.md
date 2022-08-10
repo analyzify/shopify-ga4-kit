@@ -2,7 +2,7 @@
 A complete kit to integrate Shopify with GA4. Purchase &amp; product view data layers, pre-built Google Tag Manager container, in-depth tutorials. 
 
 
-## Analyzify Shopify Data Layers V2.1 change history (open-source) 
+## Analyzify Shopify Data Layers v2.1 change history (open-source) 
 
 1. Code improved, and minor issues related to the item object were fixed.
 2. User type, content type, customer id, last order date, total order quantity, total expenditure, and customer tag fields were added with the sh_info event.
