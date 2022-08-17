@@ -11,3 +11,7 @@ A complete kit to integrate Shopify with GA4. Purchase &amp; product view data l
 5. Currency rate and static order amount variables were added for multi-currency stores; totalValueStatic, currencyRate.
 6. Depending on the Shopify Checkout process, if the OrderID field was empty, the transaction_id field was adjusted to transmit the Checkout ID.
 7. Item data (line_item) was modified with the checkout object.
+
+## Download updated Google Tag Manager container
+
+Visit https://analyzify.app/shopify-ga4-kit and request the latest Google Tag Manager container. You'll receive an email from us soon. 
