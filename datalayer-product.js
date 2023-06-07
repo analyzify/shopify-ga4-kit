@@ -10,15 +10,15 @@ window.dataLayer = window.dataLayer || [];
 window.appStart = function(){
   window.productPageHandle = function(){
 
-    var productName = "{{ product.title | remove: "'" | remove: '"' }}";
-    var productId = "{{ product.id }}";
-    var productPrice = "{{ product.price | money_without_currency }}";
-    var productBrand = "{{ product.vendor | remove: "'" | remove: '"' }}";
-    var productCollection = "{{ product.collections.first.title | remove: "'" | remove: '"' }}";
-    var productType = "{{ product.type | remove: "'" | remove: '"' }}";
-    var productSku = "{{ product.selected_or_first_available_variant.sku | remove: "'" | remove: '"' }}";
-    var productVariantId = "{{ product.selected_variant.id | default: product.variants[0].id }}";
-    var productVariantTitle = "{{ product.selected_variant.title | default: product.variants[0].title }}";
+    var productName = {{ product.title | json }};
+    var productId = {{ product.id | json }};
+    var productPrice = parseFloat(Number({{ product.price | money_without_currency }}).toFixed(2));
+    var productBrand = {{ product.vendor | json }};
+    var productCollection = {{ product.collections.first.title | json }};
+    var productType = {{ product.type | json }};
+    var productSku = {{ product.selected_or_first_available_variant.sku | json }};
+    var productVariantId = {{ product.selected_variant.id | default: product.variants[0].id | json }};
+    var productVariantTitle = {{ product.selected_variant.title | default: product.variants[0].title | json }};
 
     window.dataLayer.push({
       event: "analyzify_productDetail",
