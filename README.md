@@ -14,4 +14,4 @@ A complete kit to integrate Shopify with GA4. Purchase &amp; product view data l
 
 ## Download updated Google Tag Manager container
 
-Visit https://analyzify.app/shopify-ga4-kit and request the latest Google Tag Manager container. You'll receive an email from us soon. 
+Visit https://analyzify.com/shopify-ga4-kit and request the latest Google Tag Manager container. You'll receive an email from us soon. 
