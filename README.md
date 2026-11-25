@@ -31,8 +31,8 @@ JavaScript + Shopify Liquid, Google Tag Manager dataLayer, GA4, Google Ads enhan
 
 ## History
 
-- First commit: 2022-08-07 (initial commit); last commit: 2023-06-27 (README update); 17 commits (14 without merges).
-- Authors: the Analyzify team.
+- First commit: 2022-08-07 by Erman Küplü (initial commit); last commit: 2023-06-27 by Erman Küplü (README update); 17 commits (14 without merges).
+- Main authors: Erman Küplü (9), Ceyhun Enki Aksan (8).
 - 2022-08-07: existing data layers added; PRs #1, #2, #3 (customer object, new product and transaction variables, enhanced conversions) opened and merged 2022-08-08 as v2.1.
 - 2022-08-10 to 2022-08-17: README and download instructions written.
 - 2023-06-07: PRs #6 and #7 (product data layer updates) closed; PR #8 left open.
@@ -48,7 +48,7 @@ JavaScript + Shopify Liquid, Google Tag Manager dataLayer, GA4, Google Ads enhan
 
 ## Who to ask
 
-The Analyzify team (via https://analyzify.com).
+Erman Küplü (Analyzify founder) for the kit's history and deprecation; Ceyhun Aksan for the data layer code.
 
 ## Original README
 
